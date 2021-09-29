@@ -1,7 +1,8 @@
 #WRITE YOUR CODE IN THIS FILE
-def password(Knights19):
-    if x == y:
-        return True
+def password(p):
+    if p=="Knights19":
+        return "ACCESS GRANTED"
     else:
-        return False
-        print(password(Knights19))
+        return "ACCESS DENIED"
+print(password("Knights19"))
+
